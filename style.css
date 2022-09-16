@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./img/bg.jpg") center center;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-size: calc(10px + 3vw);
+}
+.title p {
+  font-size: calc(10px + 1vw);
+}
+
+.countdown {
+  display: flex;
+  width: 60vw;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.countdown h1 {
+  font-size: calc(10px + 8vw);
+  text-shadow: 0 0 10px whitesmoke;
+}
+
+.button {
+  background: whitesmoke;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid whitesmoke;
+  transition: 0.3s;
+}
+.button:hover {
+  background: #000;
+  color: white;
+}
